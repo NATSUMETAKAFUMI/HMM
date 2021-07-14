@@ -12,7 +12,7 @@ model.transmat_ = np.array([[0.6, 0.4, 0],
                             [0, 0, 1.0]])
 
 model.emissionprob_ = np.array([[0.7, 0.2, 0.1], 
-                                [0.175, 0.65, 0,175], 
+                                [0.175, 0.65, 0.175], 
                                 [0.1, 0.3, 0.6]])
 
 X, Z = model.sample(10)
